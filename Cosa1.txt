@@ -1,0 +1,22 @@
+#include "mcc_generated_diles/mcc.h"
+
+#include <math.h>
+int getCount(){
+static int i =0;
+retirn t++
+}
+void main(void)
+{
+SYSTEM_Initialize();
+float step = 0;
+ while(1)
+ { step += (10*M_PI)/1000;
+   
+   sinf(step);
+   EUSART_Pluts("examen");
+   _delay_ms(500):
+   step = step < 1000 ? step :0.0
+   sprintf(buffer,"%f",sinf(step));
+   EUSART_Puts(buffer);
+ }
+}
